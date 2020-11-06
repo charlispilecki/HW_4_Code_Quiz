@@ -1,0 +1,29 @@
+.card {
+    text-align: center;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.navbar-page-title {
+    font-size: large; 
+}
+
+.btn {
+    background:rgb(5, 180, 5);
+    border-style: solid;
+    border-color: black;
+}
+
+.btn:hover {
+    background-color: lightgreen;
+}
+
+.answer li:hover {
+    background-color: rgb(106, 112, 144);
+    color:white;
+    border-radius: 15px;
+}
