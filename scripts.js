@@ -106,7 +106,7 @@ function displayMessage(message) {
 startButton.addEventListener("click", function () {
     displayQuestion();
     navigateQuiz(1);
-    remainingTime = 10;
+    remainingTime = 45;
     timer.innerHTML = remainingTime;
 
     // Timer function
