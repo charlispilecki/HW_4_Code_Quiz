@@ -31,3 +31,11 @@
 .hidden {
     display: none;
 }
+
+.answer .selected {
+    background-color: rgb(106, 112, 144);
+    color:white;
+    border-radius: 15px;
+    border-color: black; 
+    border-width: 2px;
+}

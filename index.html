@@ -14,7 +14,7 @@
 
 <body>
     <nav class="navbar navbar-dark bg-primary text-light d-flex justify-content-between">
-        <span class="">View High Scores</span>
+        <a href="#" id="view-high-scores">View High Scores</a>
         <div class="justify-content-center">
             <span class="navbar-page-title font-weight-bold pr-5">
                 <!-- might want to change padding above ^ and work on center spacing -->
@@ -50,12 +50,14 @@
                     <li class="list-group-item">Option B</li>
                     <li class="list-group-item">Option C</li>
                 </ul>
-                <div class="pt-2">
-                    <a href="#" class="btn btn-primary">Submit</a>
+                <div class="pt-4">
+                    <a href="#" class="btn btn-primary" id="submit-button">Submit</a>
+                    <div id="message-div" class="font-italic font-weight-light pt-4">&nbsp;</div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <div class="hidden card mx-auto" id="initial-score-card">
         <div class="card-body">
@@ -64,12 +66,13 @@
             <form>
                 <div class="form-row">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Initials">
+                        <input id="initials-input" type="text" class="form-control" placeholder="Initials">
+                        <div id="real-score"></div>
                     </div>
                 </div>
             </form>
             <div class="pt-2">
-                <a href="#" class="btn btn-primary">Submit</a>
+                <a href="#" class="btn btn-primary" id="submit-high-score">Submit</a>
             </div>
         </div>
     </div>
@@ -79,7 +82,7 @@
         <div class="card-body">
             <h2 class="card-title">High Scores</h2>
             <h6 class="card-subtitle mb-2 text-muted"></h6>
-            <ul class="list-group">
+            <ul id="high-score-list" class="list-group">
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                     High Score 1
                     <span class="badge badge-primary badge-pill">100</span>
@@ -94,13 +97,14 @@
                 </li>
             </ul>
             <div class="pt-2">
-                <a href="#" class="btn btn-primary">Re-Take Quiz</a>
-                <a href="#" class="btn btn-primary">Clear</a>
+                <a id="retake-quiz-button" href="#" class="btn btn-primary">Re-Take Quiz</a>
+                <a id="clear-button" href="#" class="btn btn-primary">Clear</a>
             </div>
         </div>
     </div>
 
     </div>
+    <script src="questionlist.js"></script>
     <script src="scripts.js"></script>
 </body>
 
