@@ -193,6 +193,10 @@ function displayHighScores() {
     var json = localStorage.getItem('highScores')
     var highScores = JSON.parse(json)
 
+    if (!highScores) {
+        highScores = []
+    }
+
     // clear all scores for clean slate
     highScoreList.innerHTML = ''
     highScores.forEach(function (highScore) {
