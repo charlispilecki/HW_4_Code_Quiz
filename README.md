@@ -12,5 +12,8 @@ The game itself works by adding points to the user's score with every correct qu
 ![Screenshot_3](img/Screenshot_3.png)
 ![Screenshot_4](img/Screenshot_4.png)
 
-## Link
+## Links
 https://charlispilecki.github.io/HW_4_Code_Quiz/
+https://github.com/charlispilecki/HW_4_Code_Quiz
+
+
